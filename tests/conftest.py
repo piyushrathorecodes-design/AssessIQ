@@ -44,31 +44,31 @@ def mock_llm_response(monkeypatch):
             else:
                 return '{"intent": "recommendation_request", "confidence": 0.90}'
 
-        # 2. State Analyzer Mocking
+        # 2. Clarification Check Mocking (must come BEFORE state analyzer because the
+        #    clarification prompt also contains "CONVERSATION HISTORY" which would
+        #    otherwise be caught by the state analyzer branch below)
+        elif "CLARIFYING DETAILS" in prompt_upper or "CLARIFICATION_PROMPT" in prompt_upper:
+            history_part = ""
+            if "RECRUITER:" in prompt_upper:
+                history_part = prompt_upper
+
+            if "JAVA DEVELOPER" in history_part:
+                return '{"needs_clarification": false, "missing_details": [], "clarification_question": ""}'
+            else:
+                return '{"needs_clarification": true, "missing_details": ["job_role"], "clarification_question": "What job role or skills do you want to evaluate?"}'
+
+        # 3. State Analyzer Mocking
         elif "EXTRACT AND UPDATE" in prompt_upper or "CONVERSATION HISTORY" in prompt_upper:
             history_part = ""
             if "CONVERSATION HISTORY:" in prompt_upper:
                 history_part = prompt_upper.split("CONVERSATION HISTORY:")[-1].split("PREVIOUS STATE")[0]
-            
+
             if "JAVA DEVELOPER" in history_part:
                 return '{"job_role": "Java Developer", "experience_level": null, "required_skills": ["Java", "OOP"], "test_types": ["K"], "remote_testing": null, "adaptive": null}'
             elif "ACTUALLY INCLUDE PERSONALITY" in history_part or "PERSONALITY" in history_part:
                 return '{"job_role": "Java Developer", "experience_level": null, "required_skills": ["Java"], "test_types": ["K", "P"], "remote_testing": null, "adaptive": null}'
             else:
                 return '{"job_role": null, "experience_level": null, "required_skills": [], "test_types": [], "remote_testing": null, "adaptive": null}'
-
-        # 3. Clarification Check Mocking
-        elif "CLARIFYING DETAILS" in prompt_upper or "CLARIFICATION_PROMPT" in prompt_upper:
-            history_part = ""
-            if "CONVERSATION HISTORY:" in prompt_upper:
-                history_part = prompt_upper.split("CONVERSATION HISTORY:")[-1].split("PREVIOUS STATE")[0]
-            elif "CONVERSATION HISTORY" in prompt_upper:
-                history_part = prompt_upper.split("CONVERSATION HISTORY")[-1]
-                
-            if "JAVA DEVELOPER" in history_part:
-                return '{"needs_clarification": false, "missing_details": [], "clarification_question": ""}'
-            else:
-                return '{"needs_clarification": true, "missing_details": ["job_role"], "clarification_question": "What job role or skills do you want to evaluate?"}'
 
         # 4. Comparison Request Mocking
         elif "ASSESSMENTS TO COMPARE" in prompt_upper:

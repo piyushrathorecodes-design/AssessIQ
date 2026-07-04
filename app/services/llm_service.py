@@ -51,11 +51,11 @@ def call_llm(
     if json_mode:
         gen_config["response_mime_type"] = "application/json"
 
-    # Use the model from settings (e.g. gemini-1.5-flash or gemini-2.5-flash)
+    # Use the model from settings (e.g. gemini-2.0-flash or gemini-2.5-flash)
     model_name = settings.model_name
     # Fallback/Map default names if needed
     if "gemini-" not in model_name:
-        model_name = "gemini-1.5-flash"
+        model_name = "gemini-2.0-flash"
         
     logger.info(f"Invoking LLM Model={model_name} (JSON={json_mode})")
     start_time = time.time()
