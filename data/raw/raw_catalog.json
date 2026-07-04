@@ -1,0 +1,455 @@
+[
+  {
+    "name": "Occupational Personality Questionnaire (OPQ32)",
+    "description": "The SHL OPQ32 is the premier psychometric assessment designed to evaluate workplace behavior, preferences, and personality traits. It measures 32 specific personality dimensions grouped into three key areas: Relationships with People, Thinking Style, and Feelings and Emotions. It is widely used for professional recruitment, leadership development, and team capability building.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/occupational-personality-questionnaire-opq32/",
+    "category": "Personality and Behaviour",
+    "skills": [
+      "Workplace Behavior",
+      "Leadership Style",
+      "Team Collaboration",
+      "Interpersonal Skills",
+      "Emotional Intelligence"
+    ],
+    "job_roles": [
+      "Manager",
+      "Graduate",
+      "Sales Representative",
+      "Customer Service",
+      "Executive"
+    ],
+    "duration": 45,
+    "remote_testing_support": true,
+    "adaptive": true,
+    "languages": [
+      "English",
+      "Spanish",
+      "French",
+      "German",
+      "Mandarin",
+      "Japanese"
+    ],
+    "test_type": [
+      "P"
+    ]
+  },
+  {
+    "name": "Verify Interactive G+ (General Ability)",
+    "description": "The Verify Interactive G+ assessment measures general cognitive ability through three sub-tests: Numerical Reasoning, Deductive Reasoning, and Inductive Reasoning. It is an adaptive, gamified assessment that uses interactive elements (drag-and-drop, data manipulation) to evaluate problem-solving capability, logical thinking, and cognitive agility under pressure.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-interactive-g-plus-general-ability/",
+    "category": "Cognitive Ability",
+    "skills": [
+      "Numerical Reasoning",
+      "Deductive Reasoning",
+      "Inductive Reasoning",
+      "Problem Solving",
+      "Critical Thinking"
+    ],
+    "job_roles": [
+      "Software Engineer",
+      "Analyst",
+      "Project Manager",
+      "Graduate",
+      "Consultant"
+    ],
+    "duration": 36,
+    "remote_testing_support": true,
+    "adaptive": true,
+    "languages": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese"
+    ],
+    "test_type": [
+      "A"
+    ]
+  },
+  {
+    "name": "Verify Numerical Reasoning",
+    "description": "Verify Numerical Reasoning evaluates a candidate's ability to analyze, interpret, and draw logical conclusions from complex numerical and statistical data. It measures numerical critical thinking rather than simple calculations. Ideal for roles requiring financial planning, data analysis, or budgeting.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-numerical-reasoning/",
+    "category": "Cognitive Ability",
+    "skills": [
+      "Data Analysis",
+      "Numerical Critical Thinking",
+      "Statistical Interpretation",
+      "Financial Reasoning"
+    ],
+    "job_roles": [
+      "Financial Analyst",
+      "Accountant",
+      "Business Analyst",
+      "Data Scientist"
+    ],
+    "duration": 25,
+    "remote_testing_support": true,
+    "adaptive": true,
+    "languages": [
+      "English",
+      "Spanish",
+      "Mandarin",
+      "French",
+      "German"
+    ],
+    "test_type": [
+      "A"
+    ]
+  },
+  {
+    "name": "Verify Verbal Reasoning",
+    "description": "Verify Verbal Reasoning measures the ability to evaluate written reports, business proposals, and text passages to make logical decisions. Candidates must identify whether conclusions follow logically from the provided text, assessing comprehension and verbal analysis skills.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-verbal-reasoning/",
+    "category": "Cognitive Ability",
+    "skills": [
+      "Verbal Comprehension",
+      "Critical Thinking",
+      "Information Analysis",
+      "Business Communication"
+    ],
+    "job_roles": [
+      "Marketing Specialist",
+      "Human Resources",
+      "Manager",
+      "Administrative",
+      "Consultant"
+    ],
+    "duration": 19,
+    "remote_testing_support": true,
+    "adaptive": true,
+    "languages": [
+      "English",
+      "French",
+      "German",
+      "Italian",
+      "Japanese"
+    ],
+    "test_type": [
+      "A"
+    ]
+  },
+  {
+    "name": "Verify Deductive Reasoning",
+    "description": "Verify Deductive Reasoning measures the ability to solve logical problems, identify arguments, and draw conclusions from complex information. The test evaluates the ability to solve problems step-by-step and identify logic gaps, critical for complex technical roles.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-deductive-reasoning/",
+    "category": "Cognitive Ability",
+    "skills": [
+      "Deductive Logic",
+      "Problem Solving",
+      "Process Analysis",
+      "Logical Reasoning"
+    ],
+    "job_roles": [
+      "Software Engineer",
+      "Systems Architect",
+      "Operations Manager",
+      "Developer"
+    ],
+    "duration": 20,
+    "remote_testing_support": true,
+    "adaptive": true,
+    "languages": [
+      "English",
+      "German",
+      "Spanish",
+      "French"
+    ],
+    "test_type": [
+      "A"
+    ]
+  },
+  {
+    "name": "Verify Inductive Reasoning",
+    "description": "Verify Inductive Reasoning evaluates the ability to identify patterns, relationships, and trends in abstract data. It measures conceptual thinking and the ability to solve unfamiliar problems without relying on prior knowledge. Perfect for strategic or innovative roles.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-inductive-reasoning/",
+    "category": "Cognitive Ability",
+    "skills": [
+      "Pattern Recognition",
+      "Conceptual Thinking",
+      "Abstract Reasoning",
+      "Innovation"
+    ],
+    "job_roles": [
+      "Product Manager",
+      "Researcher",
+      "Software Developer",
+      "Designer"
+    ],
+    "duration": 24,
+    "remote_testing_support": true,
+    "adaptive": true,
+    "languages": [
+      "English",
+      "Spanish",
+      "French",
+      "Mandarin"
+    ],
+    "test_type": [
+      "A"
+    ]
+  },
+  {
+    "name": "Verify Mechanical Comprehension",
+    "description": "The Verify Mechanical Comprehension test evaluates a candidate's understanding of basic physical principles, mechanical mechanisms (levers, pulleys, gears), and spatial relationships. It is designed for technical, maintenance, and engineering roles.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-mechanical-comprehension/",
+    "category": "Cognitive Ability",
+    "skills": [
+      "Physical Principles",
+      "Mechanical Logic",
+      "Spatial Reasoning",
+      "Technical Problem Solving"
+    ],
+    "job_roles": [
+      "Mechanical Engineer",
+      "Technician",
+      "Maintenance Operator",
+      "Electrician"
+    ],
+    "duration": 25,
+    "remote_testing_support": true,
+    "adaptive": false,
+    "languages": [
+      "English",
+      "German",
+      "Swedish"
+    ],
+    "test_type": [
+      "A",
+      "K"
+    ]
+  },
+  {
+    "name": "Java Software Engineer Simulation",
+    "description": "This hands-on coding simulation measures practical Java coding capabilities, software design skills, and debugging proficiency. Candidates must write and correct actual Java code to solve complex algorithmic and system design challenges.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/java-software-engineer-simulation/",
+    "category": "Skills and Simulations",
+    "skills": [
+      "Java Development",
+      "Object-Oriented Design",
+      "Debugging",
+      "Data Structures",
+      "Algorithms"
+    ],
+    "job_roles": [
+      "Java Developer",
+      "Backend Engineer",
+      "Software Engineer"
+    ],
+    "duration": 60,
+    "remote_testing_support": true,
+    "adaptive": false,
+    "languages": [
+      "English"
+    ],
+    "test_type": [
+      "S",
+      "K"
+    ]
+  },
+  {
+    "name": "Python Developer Assessment",
+    "description": "An interactive skills test that evaluates core Python programming skills, script development, standard library knowledge, and data analysis concepts. It requires candidates to read, write, and repair Python scripts.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/python-developer-assessment/",
+    "category": "Skills and Simulations",
+    "skills": [
+      "Python Programming",
+      "Scripting",
+      "Data Structures",
+      "Code Optimization"
+    ],
+    "job_roles": [
+      "Python Developer",
+      "Data Engineer",
+      "Backend Developer",
+      "Data Analyst"
+    ],
+    "duration": 45,
+    "remote_testing_support": true,
+    "adaptive": false,
+    "languages": [
+      "English"
+    ],
+    "test_type": [
+      "S",
+      "K"
+    ]
+  },
+  {
+    "name": "SQL Database Developer Test",
+    "description": "Evaluates a candidate's proficiency in relational database concepts, writing SQL queries, joining tables, data aggregation, and index optimization. Features realistic query-writing exercises.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/sql-database-developer-test/",
+    "category": "Skills and Simulations",
+    "skills": [
+      "SQL Queries",
+      "Database Design",
+      "Performance Tuning",
+      "Data Aggregation"
+    ],
+    "job_roles": [
+      "Database Administrator",
+      "SQL Developer",
+      "Data Analyst",
+      "Backend Engineer"
+    ],
+    "duration": 40,
+    "remote_testing_support": true,
+    "adaptive": false,
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "test_type": [
+      "K"
+    ]
+  },
+  {
+    "name": "Situational Judgement Test (SJT) - Professional",
+    "description": "The SHL Situational Judgement Test presents candidates with realistic workplace conflicts, operational issues, and team dynamics scenarios. Candidates must select the most and least effective actions, measuring business judgement, team work, and client handling.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/situational-judgement-test-sjt-professional/",
+    "category": "Personality and Behaviour",
+    "skills": [
+      "Decision Making",
+      "Interpersonal Sensitivity",
+      "Conflict Resolution",
+      "Business Judgement"
+    ],
+    "job_roles": [
+      "Project Manager",
+      "Consultant",
+      "HR Manager",
+      "Operations Leader"
+    ],
+    "duration": 30,
+    "remote_testing_support": true,
+    "adaptive": false,
+    "languages": [
+      "English",
+      "French",
+      "German",
+      "Spanish"
+    ],
+    "test_type": [
+      "B"
+    ]
+  },
+  {
+    "name": "Verify Checking Test",
+    "description": "Verify Checking measures speed and accuracy in detecting errors or mismatches in alphanumeric strings, tables, and product labels. Ideal for administrative, high-volume clerical, or quality-control positions.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-checking-test/",
+    "category": "Cognitive Ability",
+    "skills": [
+      "Attention to Detail",
+      "Error Spotting",
+      "Speed and Accuracy",
+      "Data Verification"
+    ],
+    "job_roles": [
+      "Administrative Assistant",
+      "Data Entry Operator",
+      "Quality Controller",
+      "Clerk"
+    ],
+    "duration": 15,
+    "remote_testing_support": true,
+    "adaptive": true,
+    "languages": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Japanese"
+    ],
+    "test_type": [
+      "A"
+    ]
+  },
+  {
+    "name": "Sales Personality Assessment",
+    "description": "This psychometric assessment evaluates behavioral traits directly linked to sales success. It measures resilience, competitiveness, persuasion style, negotiation preferences, and goal orientation to predict commercial effectiveness.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/sales-personality-assessment/",
+    "category": "Personality and Behaviour",
+    "skills": [
+      "Sales Drive",
+      "Negotiation",
+      "Influence",
+      "Resilience",
+      "Customer Focus"
+    ],
+    "job_roles": [
+      "Sales Representative",
+      "Account Manager",
+      "Business Development Executive"
+    ],
+    "duration": 35,
+    "remote_testing_support": true,
+    "adaptive": true,
+    "languages": [
+      "English",
+      "French",
+      "German",
+      "Spanish"
+    ],
+    "test_type": [
+      "P"
+    ]
+  },
+  {
+    "name": "SHL 360 Multi-Rater Feedback",
+    "description": "A robust 360-degree feedback assessment that gathers performance insights from peers, direct reports, supervisors, and self-assessments. It aligns behaviors against critical leadership competencies to drive professional growth and development plans.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/shl-360-multi-rater-feedback/",
+    "category": "Development and 360",
+    "skills": [
+      "Leadership Competencies",
+      "Peer Feedback",
+      "Strategic Alignment",
+      "Performance Coaching"
+    ],
+    "job_roles": [
+      "Executive",
+      "Senior Manager",
+      "Team Lead",
+      "Department Head"
+    ],
+    "duration": 40,
+    "remote_testing_support": true,
+    "adaptive": false,
+    "languages": [
+      "English",
+      "French",
+      "German",
+      "Mandarin",
+      "Japanese"
+    ],
+    "test_type": [
+      "D"
+    ]
+  },
+  {
+    "name": "English Language Communication Test",
+    "description": "Evaluates candidate proficiency in English business communication, focusing on vocabulary, reading comprehension, grammar, and formal writing structure. Often used for client-facing or international roles.",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/english-language-communication-test/",
+    "category": "Skills and Simulations",
+    "skills": [
+      "English Proficiency",
+      "Business Writing",
+      "Reading Comprehension",
+      "Grammar"
+    ],
+    "job_roles": [
+      "Customer Support",
+      "Technical Writer",
+      "Public Relations",
+      "Sales Advisor"
+    ],
+    "duration": 30,
+    "remote_testing_support": true,
+    "adaptive": true,
+    "languages": [
+      "English"
+    ],
+    "test_type": [
+      "K"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+You are an AI assistant analyzing a conversation history between a recruiter and an AI recommender.
+Your task is to extract and update the cumulative recruiting criteria provided by the user up to this point.
+
+### CONVERSATION HISTORY:
+{history}
+
+### PREVIOUS STATE (if any):
+{previous_state}
+
+### EXTRACTED CRITERIA DEFINITIONS:
+1. `job_role`: The title or job role being hired for (e.g., "Java Developer", "Sales Executive").
+2. `experience_level`: The target seniority or experience (e.g., "Graduate", "Manager", "Senior").
+3. `required_skills`: Key skills/competencies mentioned (e.g., ["coding", "communication", "leadership"]).
+4. `test_types`: Target types of assessment, categorized by:
+   - "cognitive": general ability, logical, numerical, verbal reasoning.
+   - "personality": behavioral traits, working style, OPQ.
+   - "technical": domain knowledge, language skills, coding simulations.
+   - "situational": situational judgement, business scenario response.
+5. `remote_testing`: Whether remote testing support is explicitly requested/needed (boolean or null).
+6. `adaptive`: Whether adaptive assessments are requested/needed (boolean or null).
+
+### RULES:
+- Incorporate updates from the latest messages (refinement). If the user changed constraints (e.g., "Actually, include personality tests too"), add or modify the criteria list accordingly.
+- Keep values as null if they have not been mentioned.
+
+### JSON OUTPUT FORMAT:
+Output your answer as a JSON object with this exact structure:
+{
+  "job_role": string or null,
+  "experience_level": string or null,
+  "required_skills": string[],
+  "test_types": string[],
+  "remote_testing": boolean or null,
+  "adaptive": boolean or null
+}
+
+Ensure the output is valid JSON and nothing else.

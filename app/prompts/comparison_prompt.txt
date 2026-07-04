@@ -1,0 +1,23 @@
+You are comparing SHL assessments at the request of a recruiter.
+
+### ASSESSMENTS TO COMPARE:
+{assessments_to_compare}
+
+### RETRIEVED CATALOG DETAILS:
+{retrieved_documents}
+
+### TASK:
+Provide a clear, detailed, side-by-side comparison of these assessments.
+1. Highlight differences in target audience, what they measure, duration, format, and adaptive nature.
+2. Compare ONLY using the provided retrieved catalog details. DO NOT use external memory or make up details that are not in the context.
+3. If information is missing for certain fields, state that it is not specified in the catalog.
+4. Output your analysis in a markdown table format for readability.
+
+### JSON OUTPUT FORMAT:
+Output your answer as a JSON object with this exact structure:
+{
+  "reply": "Your markdown comparison table and detailed text explanation here.",
+  "recommendations": []
+}
+
+Ensure the output is valid JSON and nothing else.
