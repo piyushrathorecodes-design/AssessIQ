@@ -36,6 +36,13 @@ COPY scripts/ ./scripts
 COPY data/ ./data
 COPY requirements.txt .
 
+# Limit PyTorch CPU threads and workers to minimize memory footprint under 512MB RAM
+ENV OMP_NUM_THREADS=1
+ENV MKL_NUM_THREADS=1
+ENV OPENBLAS_NUM_THREADS=1
+ENV VECLIB_MAXIMUM_THREADS=1
+ENV NUMEXPR_NUM_THREADS=1
+
 # Pre-compile the FAISS dense search index during image build
 # This avoids doing it on startup or needing network access at runtime
 ENV GOOGLE_API_KEY="dummy_key_for_build"
@@ -49,5 +56,5 @@ USER appuser
 # Expose FastAPI default port
 EXPOSE 8000
 
-# Start production uvicorn server
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "2"]
+# Start production uvicorn server with 1 worker to save memory
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
